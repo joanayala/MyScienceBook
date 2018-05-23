@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Aboutof" android:title="Acerca de ..." />
+
+    <item android:id="@+id/idOpc2"
+        android:title="Accesos rápidos" >
+        <!-- Submenu -->
+        <menu>
+            <item android:id="@+id/IdIng"
+                android:title="Ingeniería" />
+            <item android:id="@+id/che"
+                android:title="Química" />
+        </menu>
+    </item>
+
+</menu>
